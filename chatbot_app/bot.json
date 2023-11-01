@@ -1,0 +1,45 @@
+{
+    "greetings": {
+      "hello": "Hello! How can I assist you today?",
+      "hi": "Hi there! What can I do for you?",
+      "hey": "Hey! How can I help?"
+    },
+    "farewell": {
+      "bye": "Goodbye! Have a great day!",
+      "goodbye": "See you later!",
+      "exit": "Bye for now!",
+      "help": "what help you need??",
+      "i have a question": "please ask"
+    },
+  
+    "questions": {
+      "what is your favorite color": "I don't have a favorite color, but I'm here to answer your questions!",
+      "who won the yesterdays match": "india",
+      "tell me a joke": "Why did the scarecrow win an award? Because he was outstanding in his field!",
+      "how does photosynthesis work": "Photosynthesis is the process by which plants convert sunlight into energy. It involves a complex series of chemical reactions...",
+      "what is the meaning of life": "The meaning of life is a philosophical question that has been debated for centuries. It can have different meanings for different people.",
+      "tell me a fun fact": "Sure, here's a fun fact: Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible!",
+       "show me a cute  picture": "Sure, here's a link to a cute  picture: [ Picture](https://media.istockphoto.com/id/1472932742/photo/group-of-multigenerational-people-hugging-each-others-support-multiracial-and-diversity.jpg?s=1024x1024&w=is&k=20&c=y0iPjg_awDHw2Ps96JgMUXRvM5WoCeNA-4MgbUelbVY=)",
+     "video": "Of course! Here's a link to a  video: [Funny Video](https://www.youtube.com/watch?v=Ea9jgBjQxEs&t=592s)",
+      "watch a video": "Of course! Here's a link to a  video: [Funny Video](https://www.youtube.com/watch?v=Ea9jgBjQxEs&t=592s)"
+    },
+    "compliments": {
+      "you are smart": "Thank you! I'm here to provide information and assist you.",
+      "you are helpful": "I'm glad to be of help!",
+      "you are amazing": "You're too kind! How can I assist you today?",
+      "you are the best": "Thank you! I'm here to assist you to the best of my abilities.",
+      "you are awesome": "You're pretty awesome too! How can I assist you?",
+      "you are great": "I'm here to make your day great! What can I do for you?"
+    },
+    "weather": {
+      "what's the weather like today": "I'm sorry, I don't have access to real-time weather information. You can check a weather website or app for the current weather.",
+      "will it rain tomorrow": "I can't provide weather forecasts. Please check a reliable weather source for that information."
+    },
+    "thankyou": {
+      "thank you": "You're welcome! If you have more questions, feel free to ask.",
+      "thanks": "You're welcome! How can I assist you further?",
+      "appreciate it": "I'm here to help. Let me know if there's anything else I can do for you."
+    },
+    "default": "I'm not sure how to respond to that. Can you please rephrase your question?"
+  }
+  

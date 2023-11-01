@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% load static %}
+    <link rel="stylesheet"  href="{% static 'styles.css' %}">
+
+    <title>Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .main_div {
+            max-width: 600px;
+            margin: 0 auto;
+            margin-top:10px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            width: 100%;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        #conversation {
+            margin-top: 20px;
+        }
+
+        p {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="main_div">
+    <div>
+        <h1>Chatbot</h1>
+        <form method="POST">
+            {% csrf_token %}
+            <label for="user_input">You:</label>
+            <input type="text" id="user_input" name="user_input" autofocus>
+            <input type="submit" value="Send">
+        </form>
+        <div id="conversation">
+            {% for message in conversation %}
+                <p>{{forloop.counter }} .....{{ message }}</p>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
